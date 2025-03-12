@@ -23,5 +23,11 @@ public class Circulo {
     {
         return raio;
     }
+
+    //método exibe dados
+    public void exibeDados()
+    {
+        System.out.println("Raio: " + getRaio());
+    }
 }
     
