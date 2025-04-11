@@ -1,9 +1,9 @@
 public class TesteRetangulo {
     public static void main(String[] args) {
-        // Criando um retângulo com valores personalizados
+        // valores personalizados
         Retangulo r1 = new Retangulo(5, 5);
 
-        // Criando um retângulo com valores padrão
+        // valores padrão
         Retangulo r2 = new Retangulo();
 
         System.out.println("Retângulo 1:");

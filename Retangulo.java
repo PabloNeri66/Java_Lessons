@@ -14,7 +14,7 @@ public class Retangulo {
         this.altura = 1;
     }
 
-    // Getters
+   
     public double getBase() {
         return base;
     }
@@ -23,22 +23,22 @@ public class Retangulo {
         return altura;
     }
 
-    // Área
+  
     public double calcularArea() {
         return base * altura;
     }
 
-    // Perímetro
+    
     public double calcularPerimetro() {
         return 2 * (base + altura);
     }
 
-    // Verifica se é quadrado
+  
     public boolean ehQuadrado() {
         return base == altura;
     }
 
-    // Imprime todas as informações
+    
     public void imprimirInformacoes() {
         System.out.println("Base: " + base);
         System.out.println("Altura: " + altura);
